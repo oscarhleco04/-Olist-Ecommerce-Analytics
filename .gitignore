@@ -1,0 +1,32 @@
+
+# Datos originales y procesados
+data/raw/
+data/processed/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuraciones locales
+.vscode/
+.env
+
+# Datos originales y archivos procesados
+data/raw/
+data/processed/
+**/data/raw/
+**/data/processed/
+
+# Copias de seguridad
+**/processed_backup/
+**/processed_anterior/
